@@ -1,14 +1,5 @@
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
+@import "styles/reset.scss";
+@import "styles/variables.scss";
+@import "styles/typography.scss";
+@import "styles/base.scss";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
