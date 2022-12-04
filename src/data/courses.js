@@ -4,7 +4,8 @@ const courses = [
     level: "titre RNCP niveau 6 (Bac +3/4)",
     date: "2023 - 2025",
     school: "Openclassrooms",
-    link:"https://openclassrooms.com/fr/paths/511-developpeur-dapplication-android"
+    link:"https://openclassrooms.com/fr/paths/511-developpeur-dapplication-android",
+    logo
   },
   {
     title: "Développeur Web",
