@@ -5,6 +5,8 @@ const experiences = [
     company: "Openclassrooms",
     missions: ["Réalisation de projets professionnalisants"],
     link: "https://github.com/Mherlin06",
+    logo: "../src/assets/images/web-dev.webp",
+    alt: "écrans de développeurs"
   },
   {
     title: "Assistant de direction",
@@ -19,7 +21,9 @@ const experiences = [
       "Accueil et fidélisation des clients",
       "Nettoyage et entretien du restaurant et du matériel",
     ],
-    link: "https://phood.fr"
+    link: "https://phood.fr",
+    logo: "../src/assets/images/phood.webp",
+    alt:"plats vietnamiens"
   },
   {
     title: "Préparateur de service",
@@ -33,6 +37,8 @@ const experiences = [
       "Accueil et fidélisation des clients",
       "Nettoyage et entretien du restaurant et du matériel",
     ],
+    logo: "../src/assets/images/flunch.webp",
+    alt: "buffet à volonté"
   },
   {
     title: "Employé polvalent, Formateur",
@@ -44,6 +50,8 @@ const experiences = [
       "Accueil et services des clients en caisse et au drive",
       "Nettoyage et entretien du restaurant et du matériel",
     ],
+    logo: "../src/assets/images/mcdo.webp",
+    alt: "plateau mcdonald's"
   },
   {
     title: "Voyages",
