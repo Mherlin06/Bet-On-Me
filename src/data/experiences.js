@@ -79,7 +79,10 @@ const experiences = [
       { country: "Portugal", flag: "../src/assets/flags/portugal.png" },
       { country: "Italie", flag: "../src/assets/flags/italy.png" },
       { country: "Pologne", flag: "../src/assets/flags/poland.png" },
-      { country: "Répulique Tcheque", flag: "../src/assets/flags/czech-republic.png", },
+      {
+        country: "Répulique Tcheque",
+        flag: "../src/assets/flags/czech-republic.png",
+      },
       { country: "USA", flag: "../src/assets/flags/usa.png" },
       { country: "Canada", flag: "../src/assets/flags/canada.png" },
       { country: "Suède", flag: "../src/assets/flags/sweden.png" },
@@ -92,4 +95,8 @@ const experiences = [
 
 export function getExperiences() {
   return experiences;
+}
+
+export function getExperienceByID(id) {
+  return experiences.find((experience) => experience.id === id);
 }
