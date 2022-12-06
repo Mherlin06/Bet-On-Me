@@ -9,6 +9,7 @@ import SoftSkills from "./pages/SoftSkills/SoftSkills";
 import HardSkills from "./pages/HardSkills/HardSkills";
 import Tools from "./pages/Tools/Tools";
 import Hobby from "./pages/Hobby/Hobby";
+import Missions from "./pages/Missions/Missions";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           <Route errorElement={<Error />}>
             <Route index element={<Index />} />
             <Route path="formations" element={<Courses />} />
-            <Route path="experiences" element={<Experiences />} />
+            <Route path="experiences" element={<Experiences />}>
+              <Route path="/:id" element={<Missions />} />
+            </Route>
             <Route path="softskills" element={<SoftSkills />} />
             <Route path="hardskills" element={<HardSkills />} />
             <Route path="outils" element={<Tools />} />
