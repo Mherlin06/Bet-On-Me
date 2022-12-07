@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Menu = () => {
-  return (
-    <aside>
-      
-    </aside>
-  )
-}
+  return <aside className="menu">menu</aside>;
+};
 
-export default Menu
+export default Menu;

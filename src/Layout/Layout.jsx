@@ -6,11 +6,13 @@ import Summary from "../components/Summary/Summary";
 
 export const Layout = () => {
   return (
-    <div>
+    <div className="layout">
       <Header />
-      <Menu/>
-      <Outlet />
-      <Summary />
+      <main>
+        <Menu />
+        <Outlet />
+        <Summary />
+      </main>
     </div>
   );
 };
