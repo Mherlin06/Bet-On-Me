@@ -1,0 +1,23 @@
+header {
+  background-color: $bgHeader;
+  height: 50px;
+  padding: 9px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: $typoBrandAlt;
+  font-weight: 600;
+  width: 100%;
+
+  h1 {
+    font-size: 20px;
+    font-style: italic;
+  }
+  div {
+    display: flex;
+    gap: 40px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

@@ -1,5 +1,26 @@
+// General styling
 @import "styles/reset.scss";
 @import "styles/variables.scss";
 @import "styles/typography.scss";
 @import "styles/base.scss";
 
+//Layout styling
+@import "./Layout/Layout.scss";
+
+//Page styling
+@import "./pages/Courses/Courses.scss";
+@import "./pages/Error/Error.scss";
+@import "./pages/Experiences/Experiences.scss";
+@import "./pages/HardSkills/HardSkills.scss";
+@import "./pages/Hobby/Hobby.scss";
+@import "./pages/Index/Index.scss";
+@import "./pages/Missions/Missions.scss";
+@import "./pages/SoftSkills/SoftSkills.scss";
+@import "./pages/Tools/Tools.scss";
+
+//Components styling
+@import "./components/Header/Header.scss";
+@import "./components/Footer/Footer.scss";
+@import "./components/Menu/Menu.scss";
+@import "./components/Summary/Summary.scss";
+@import "./components/ContactButton/ContactButton.scss"
