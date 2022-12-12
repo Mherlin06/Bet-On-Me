@@ -6,8 +6,9 @@ const experiences = [
     company: "Openclassrooms",
     missions: ["Réalisation de projets professionnalisants"],
     link: "https://github.com/Mherlin06",
-    logo: "../src/assets/images/web-dev.webp",
+    image: "../src/assets/images/web-dev.webp",
     alt: "écrans de développeurs",
+    logo: "./logo/openclassrooms-logo.jpg",
   },
   {
     id: 2,
@@ -24,8 +25,9 @@ const experiences = [
       "Nettoyage et entretien du restaurant et du matériel",
     ],
     link: "https://phood.fr",
-    logo: "../src/assets/images/phood.webp",
+    image: "../src/assets/images/phood.webp",
     alt: "plats vietnamiens",
+    logo: "./logo/phood-logo.jpg",
   },
   {
     id: 3,
@@ -40,8 +42,9 @@ const experiences = [
       "Accueil et fidélisation des clients",
       "Nettoyage et entretien du restaurant et du matériel",
     ],
-    logo: "../src/assets/images/flunch.webp",
+    image: "../src/assets/images/flunch.webp",
     alt: "buffet à volonté",
+    logo: "./logo/flunch-logo.jpg",
   },
   {
     id: 4,
@@ -54,8 +57,9 @@ const experiences = [
       "Accueil et services des clients en caisse et au drive",
       "Nettoyage et entretien du restaurant et du matériel",
     ],
-    logo: "../src/assets/images/mcdo.webp",
+    image: "../src/assets/images/mcdo.webp",
     alt: "plateau mcdonald's",
+    logo: "./logo/mcdo-logo.jpg",
   },
   {
     id: 5,
@@ -88,8 +92,9 @@ const experiences = [
       { country: "Suède", flag: "../src/assets/flags/sweden.png" },
       { country: "France", flag: "../src/assets/flags/france.png" },
     ],
-    logo: "../src/assets/images/voyages.webp",
+    image: "../src/assets/images/voyages.webp",
     alt: "planning de voyage",
+    logo: "./logo/globe-logo.png",
   },
 ];
 
