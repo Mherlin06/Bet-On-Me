@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "../MenuItem/MenuItem";
 import { getExperiences } from "../../data/experiences";
+import { getCourses } from "../../data/courses";
 
 const experiences = getExperiences();
+const courses = getCourses();
 
 const Menu = () => {
   return (
@@ -17,7 +19,11 @@ const Menu = () => {
         </ul>
       </section>
       <h3>Formations</h3>
-      <section></section>
+      <section>
+        <ul>
+            {courses.map(course => (<MenuItem key={course.id} data={course}/>))}
+        </ul>
+      </section>
     </aside>
   );
 };

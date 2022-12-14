@@ -9,6 +9,7 @@ const experiences = [
     image: "../src/assets/images/web-dev.webp",
     alt: "écrans de développeurs",
     logo: "./logo/openclassrooms-logo.jpg",
+    category: "experiences",
   },
   {
     id: 2,
@@ -28,6 +29,7 @@ const experiences = [
     image: "../src/assets/images/phood.webp",
     alt: "plats vietnamiens",
     logo: "./logo/phood-logo.jpg",
+    category: "experiences",
   },
   {
     id: 3,
@@ -45,6 +47,7 @@ const experiences = [
     image: "../src/assets/images/flunch.webp",
     alt: "buffet à volonté",
     logo: "./logo/flunch-logo.jpg",
+    category: "experiences",
   },
   {
     id: 4,
@@ -60,6 +63,7 @@ const experiences = [
     image: "../src/assets/images/mcdo.webp",
     alt: "plateau mcdonald's",
     logo: "./logo/mcdo-logo.jpg",
+    category: "experiences",
   },
   {
     id: 5,
@@ -95,6 +99,7 @@ const experiences = [
     image: "../src/assets/images/voyages.webp",
     alt: "planning de voyage",
     logo: "./logo/globe-logo.png",
+    category: "experiences",
   },
 ];
 
