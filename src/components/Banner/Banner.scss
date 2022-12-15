@@ -1,0 +1,27 @@
+.index-hero {
+  font-style: italic;
+  color: $typoBrandAlt;
+  background-image: url("../../../public/images/index-hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 265px;
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    font-size: 70px;
+  }
+  p {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
