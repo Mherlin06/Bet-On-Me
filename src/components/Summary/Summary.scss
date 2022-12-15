@@ -1,5 +1,11 @@
 .summary {
   width: 330px;
+  min-width: 330px;
   background-color: $bgPrimary;
   margin: 20px 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }

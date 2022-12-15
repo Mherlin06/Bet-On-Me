@@ -9,13 +9,13 @@ header {
   font-weight: 600;
   width: 100%;
 
-  p {
+  a {
     font-size: 20px;
     font-style: italic;
+    color: $typoBrandAlt;
   }
   div {
     display: flex;
     gap: 40px;
   }
-
 }

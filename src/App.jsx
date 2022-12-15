@@ -19,9 +19,8 @@ function App() {
           <Route errorElement={<Error />}>
             <Route index element={<Index />} />
             <Route path="formations" element={<Courses />} />
-            <Route path="experiences" element={<Experiences />}>
-              <Route path="experiences/:id" element={<Missions />} />
-            </Route>
+            <Route path="experiences" element={<Experiences />} />
+            <Route path="experiences/:id" element={<Missions />} />
             <Route path="softskills" element={<SoftSkills />} />
             <Route path="hardskills" element={<HardSkills />} />
             <Route path="outils" element={<Tools />} />

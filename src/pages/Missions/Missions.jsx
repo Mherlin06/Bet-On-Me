@@ -2,7 +2,7 @@ import React from 'react'
 
 const Missions = () => {
   return (
-    <div>Missions</div>
+    <div className='page'>Missions</div>
   )
 }
 

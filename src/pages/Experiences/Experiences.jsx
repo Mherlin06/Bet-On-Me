@@ -1,8 +1,9 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Experiences = () => {
   return (
-    <div>Experiences</div>
+    <div className='page'>experiences</div>
   )
 }
 

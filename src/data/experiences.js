@@ -51,7 +51,7 @@ const experiences = [
   },
   {
     id: 4,
-    title: "Employé polvalent, Formateur",
+    title: "Employé polyvalent, Formateur",
     date: "2011 - 2016",
     company: "McDonald's, Cannes la Bocca",
     missions: [
