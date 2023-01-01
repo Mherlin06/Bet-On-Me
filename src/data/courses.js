@@ -10,6 +10,7 @@ const courses = [
     alt: "smartphone & bugroid",
     logo: "./logo/android-logo.png",
     category: "formations",
+    inProgress: true,
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const courses = [
     alt: "ordinateur portable",
     logo: "./logo/web-logo.png",
     category: "formations",
+    inProgress: false,
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const courses = [
     alt: "laboratoire",
     logo: "./logo/dut-logo.png",
     category: "formations",
+    inProgress: false,
   },
   {
     id: 4,
@@ -44,9 +47,14 @@ const courses = [
     alt: "microscope",
     logo: "./logo/bac-logo.png",
     category: "formations",
+    inProgress: false,
   },
 ];
 
 export function getCourses() {
   return courses;
+}
+
+export function getCourseById(id) {
+  return courses.find((course) => course.id === id);
 }
