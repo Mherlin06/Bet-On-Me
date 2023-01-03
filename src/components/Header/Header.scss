@@ -1,7 +1,7 @@
 header {
   background-color: $bgHeader;
   height: 50px;
-  padding: 9px 30px;
+  padding: 4px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,8 +14,33 @@ header {
     font-style: italic;
     color: $typoBrandAlt;
   }
-  div {
+
+  nav {
     display: flex;
-    gap: 40px;
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 50px;
+
+    a {
+      height: 100%;
+      padding: 0 15px;
+      font-size: 14px;
+      font-weight: 700;
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      color: $borderSoftAlt;
+      background: $bgHeader;
+      
+      &.active{
+        color: $typoPrimaryAlt;
+      }
+
+      &:hover {
+        background: lighten($bgHeader, 7%);
+      }
+    }
   }
+
 }
+
