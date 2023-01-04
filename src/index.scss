@@ -1,6 +1,7 @@
 // General styling
 @import "styles/reset.scss";
 @import "styles/variables.scss";
+@import "styles/mixins.scss";
 @import "styles/typography.scss";
 @import "styles/base.scss";
 
@@ -26,4 +27,4 @@
 @import "./components/Summary/Summary.scss";
 @import "./components/MenuItem/MenuItem.scss";
 @import "./components/Banner/Banner.scss";
-@import "./components/Buttons/Buttons.scss"
+@import "./components/Buttons/Buttons.scss";

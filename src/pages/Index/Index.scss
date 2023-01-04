@@ -1,0 +1,11 @@
+.index-page {
+  article {
+    @include mainCard
+  }
+}
+
+#index-summary{
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+}
