@@ -1,35 +1,44 @@
 import React from "react";
 import Banner from "../../components/Banner/Banner";
+import BetButton from "../../components/Buttons/BetButton";
+import Divider from "../../components/Divider/Divider";
 
 const Index = () => {
   return (
     <div className="page index-page">
       <Banner />
       <section id="index-summary">
-        <article>
-          <h1>Compétences Actuelles</h1>
-          <ul>
-            <li>
-              <strong>Réaliser une application web complète </strong>à partir de
-              maquettes et d'un cahier des charges fonctionnel et technique.
-            </li>
-            <li>
-              <strong>Mise en place d'Api Rest</strong> et de base de données
-              MongoDB.
-            </li>
-            <li>
-              <strong>Déployer une stratégie SEO</strong> afin d'améliorer
-              l'accessibilité et les performances d'un site web.
-            </li>
-            <li>
-              <strong>Manager une équipe</strong> d'une dizaine de personnes
-              pour garantir les résultats attendus d'un restaurant.
-            </li>
-            <li>
-              <strong>Organiser des voyages,</strong> transports, activités et
-              hébergements en fonction d'un budget et d'une durée prédéfinis.
-            </li>
-          </ul>
+        <article className="mainCard">
+          <div className="card_text">
+            <h1>Compétences Actuelles</h1>
+            <ul>
+              <li>
+                Réaliser une application web complète
+                <Divider />
+                <BetButton value={10} />
+              </li>
+              <li>
+                Mise en place d'Api Rest et de bases de données
+                <Divider />
+                <BetButton value={10} />
+              </li>
+              <li>
+                Déployer une stratégie SEO
+                <Divider />
+                <BetButton value={10} />
+              </li>
+              <li>
+                Manager une équipe
+                <Divider />
+                <BetButton value={10} />
+              </li>
+              <li>
+                Organiser des voyages
+                <Divider />
+                <BetButton value={10} />
+              </li>
+            </ul>
+          </div>
         </article>
       </section>
       <section id="index-experiences">

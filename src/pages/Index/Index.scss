@@ -1,11 +1,14 @@
-.index-page {
-  article {
-    @include mainCard
-  }
-}
-
-#index-summary{
-    display: flex;
-    flex-direction:column ;
-    gap: 10px;
+#index-summary {
+    article{
+        height: auto;
+    }
+    h1{
+        padding-bottom: 5px;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        margin-top: 8px;
+    }
 }
