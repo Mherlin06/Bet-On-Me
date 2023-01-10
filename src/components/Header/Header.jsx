@@ -9,19 +9,19 @@ const Header = () => {
       <Link to="/">Bet On Me!</Link>
 
       <nav>
-        <NavLink to="/" activeClassName="active">
+        <NavLink to="/" activeclassName="active">
           Overview
         </NavLink>
-        <NavLink to="/hardskills" activeClassName="active">
+        <NavLink to="/hardskills" activeclassName="active">
           Hard Skills
         </NavLink>
-        <NavLink to="/softskills" activeClassName="active">
+        <NavLink to="/softskills" activeclassName="active">
           Soft Skills
         </NavLink>
-        <NavLink to="/outils" activeClassName="active">
+        <NavLink to="/outils" activeclassName="active">
           Mes Outils
         </NavLink>
-        <NavLink to="/hobby" activeClassName="active">
+        <NavLink to="/hobby" activeclassName="active">
           Mes Hobbys
         </NavLink>
       </nav>

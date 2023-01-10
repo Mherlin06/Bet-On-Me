@@ -8,6 +8,10 @@ body {
   flex-grow: 1;
   min-width: 414px;
   max-width: 1600px;
+
+  section {
+    width: 100%;
+  }
 }
 
 .mainCard {
@@ -20,20 +24,28 @@ body {
   -o-border-radius: 15px;
   overflow: hidden;
   background-color: $bgPrimary;
+  flex: 1;
 
-  img{
-      height: 100px;
-      width: 100%;
-      object-fit: cover;
-      object-position:center;
+  img {
+    height: 100px;
+    width: 100%;
+    object-fit:cover;
+    object-position: center;
   }
 
-  .card_text{
-      padding: 10px;
-      li{
-        font-size: 15px;
-      }
+  .card_text {
+    padding: 10px;
+    li {
+      font-size: 15px;
+    }
   }
 }
 
+.halfCard {
+  width: 100%;
+  display: flex;
+  gap: 13px;
 
+  article{
+  }
+}

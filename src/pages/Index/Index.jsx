@@ -2,8 +2,18 @@ import React from "react";
 import Banner from "../../components/Banner/Banner";
 import BetButton from "../../components/Buttons/BetButton";
 import Divider from "../../components/Divider/Divider";
+import MoreButton from "../../components/Buttons/MoreButton";
+import { Card } from "../../components/Card/Card";
+import { getExperienceByID } from "../../data/experiences";
+import { getCourseById } from "../../data/courses";
 
 const Index = () => {
+  const exp1 = getExperienceByID(1);
+  const exp2 = getExperienceByID(2);
+  const course1 = getCourseById(1);
+  const course2 = getCourseById(2);
+  console.log(exp1);
+
   return (
     <div className="page index-page">
       <Banner />
@@ -18,7 +28,7 @@ const Index = () => {
                 <BetButton value={10} />
               </li>
               <li>
-                Mise en place d'Api Rest et de bases de données
+                Mettre en place des Api Rest et des bases de données
                 <Divider />
                 <BetButton value={10} />
               </li>
@@ -43,6 +53,23 @@ const Index = () => {
       </section>
       <section id="index-experiences">
         <h3>Expériences</h3>
+        <div className="halfCard">
+          <Card
+            image={exp1.image}
+            alt={exp1.alt}
+            title={exp1.title}
+            date={exp1.date}
+            company={exp1.company}
+          />
+          <Card
+            image={exp2.image}
+            alt={exp2.alt}
+            title={exp2.title}
+            date={exp2.date}
+            company={exp2.company}
+          />
+        </div>
+        <MoreButton></MoreButton>
       </section>
       <section id="index-courses">
         <h3>Formations</h3>
