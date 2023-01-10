@@ -61,6 +61,7 @@ const Index = () => {
             date={exp1.date}
             company={exp1.company}
             inProgress={true}
+            id={1}
           />
           <Card
             image={exp2.image}
@@ -69,6 +70,7 @@ const Index = () => {
             date={exp2.date}
             company={exp2.company}
             inProgress={true}
+            id={2}
           />
         </div>
         <MoreButton></MoreButton>
