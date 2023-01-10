@@ -62,9 +62,15 @@
   background-color: $buttonBetting;
   cursor: pointer;
   font-weight: 700;
-  font-size: 16px;
-  
+  font-size: 14px;
+
   &:hover {
     background-color: $buttonBettingPressed;
   }
+}
+
+.halfCard-button {
+  width: 85%;
+  height: 40px;
+  margin: 13px auto;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
-const BetButton = ({ value }) => {
-  return <button className="betButton">{value}</button>;
+const BetButton = ({ value, className }) => {
+  return <button className={"betButton " + className}>{value}</button>;
 };
 
 export default BetButton;

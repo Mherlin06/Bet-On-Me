@@ -53,13 +53,14 @@ const Index = () => {
       </section>
       <section id="index-experiences">
         <h3>Expériences</h3>
-        <div className="halfCard">
+        <div className="halfCard-bloc">
           <Card
             image={exp1.image}
             alt={exp1.alt}
             title={exp1.title}
             date={exp1.date}
             company={exp1.company}
+            inProgress={true}
           />
           <Card
             image={exp2.image}
@@ -67,6 +68,7 @@ const Index = () => {
             title={exp2.title}
             date={exp2.date}
             company={exp2.company}
+            inProgress={true}
           />
         </div>
         <MoreButton></MoreButton>

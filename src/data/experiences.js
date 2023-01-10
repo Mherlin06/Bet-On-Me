@@ -2,7 +2,7 @@ const experiences = [
   {
     id: 1,
     title: "Développeur Web",
-    date: "2022",
+    date: "Depuis Juin 2022",
     company: "Openclassrooms",
     missions: ["Réalisation de projets professionnalisants"],
     link: "https://github.com/Mherlin06",
@@ -15,7 +15,7 @@ const experiences = [
   {
     id: 2,
     title: "Assistant de direction",
-    date: "Depuis 2019",
+    date: "Depuis Novembre 2019",
     company: "Phood, Bègles",
     missions: [
       "Création de nouveaux plats pour le développement de la marque",

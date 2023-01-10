@@ -1,0 +1,64 @@
+.mainCard {
+  height: 255px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  overflow: hidden;
+  background-color: $bgPrimary;
+  flex: 1;
+  width: 100%;
+  img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card_text {
+    padding: 10px;
+    li {
+      font-size: 15px;
+    }
+  }
+}
+
+.halfCard-bloc {
+  width: 100%;
+  display: flex;
+  gap: 13px;
+}
+
+.halfCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  div {
+    padding: 13px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    color: $typoSecondary;
+    align-items: center;
+    img {
+      margin-right: 5px;
+      height: 18px;
+      width: 18px;
+    }
+  }
+  h1 {
+    margin: 0 auto;
+    flex: 1;
+  }
+}
+
+.activeCard{
+    background-color: $bgTertiary;
+    div{
+        color: $typoSecondaryAlt;
+    }
+    h1{
+        color: $typoPrimaryAlt;
+    }
+}
